@@ -21,12 +21,12 @@ Please create two files:
 1. `/tmp/file1.txt`
 2. `/tmp/file2.txt`
 
-1. cd client
+Run the following commands:
+
+1. `cd client`
 2. `mvn compile exec:java -Dexec.mainClass="org.fenixedu.file.upload.client.Main"`
-3. The client will output the response from server
 
-Example:
-
+The client will output the response from server something like:
 ```
 component 1
 this is the component 1
