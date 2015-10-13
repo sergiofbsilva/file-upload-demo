@@ -1,6 +1,6 @@
 # File Upload REST API Demo
 
-This is an example of a web application that provides an upload endpoint that receives several parts.
+This is an example of a web application that provides an upload endpoint that receives several parts (Json + Files)
 
 The `upload` part is a `JsonArray` that describes a component.
 
