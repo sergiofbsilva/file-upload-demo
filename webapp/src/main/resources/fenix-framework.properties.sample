@@ -1,0 +1,4 @@
+dbAlias = //localhost:3306/fileupload
+dbUsername = root
+dbPassword = 
+updateRepositoryStructureIfNeeded = true

@@ -1,0 +1,6 @@
+target
+.classpath
+.settings
+.project
+configuration.properties
+fenix-framework.properties
