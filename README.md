@@ -1,5 +1,27 @@
 # File Upload REST API Demo
 
+This is an example of a web application that provides an upload endpoint that receives several parts.
+
+The `upload` part is a `JsonArray` that describes a component.
+
+```
+    [ ....
+    { 'name' : 'component 1',
+      'description' : 'this is component 1',
+      'fileRef' : 'f99e237f-c728-4d13-b64a-0fef7c89230f'
+    }
+    ... ]
+```
+For each `JsonObject` in the previous array it will attach another part named by `fileRef`.
+
+```
+--------------------------c9bca4f1d3cc2553
+Content-Disposition: form-data; name="f99e237f-c728-4d13-b64a-0fef7c89230f"; filename="file1.txt"
+Content-Type: text/plain
+this is file 1 content
+--------------------------c9bca4f1d3cc2553
+```
+
 # setup
 
 1. create database `fileupload` at `localhost`
